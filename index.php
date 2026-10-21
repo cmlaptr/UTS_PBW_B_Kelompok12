@@ -24,7 +24,7 @@ require_once 'includes/header.php';
         );
     ?>
     <div class="product-card">
-        <img src="assets/images/<?= htmlspecialchars($pObj->gambar); ?>" alt="<?= htmlspecialchars($pObj->nama); ?>" style="width: 100%; height: 450px;" class="product-image">
+        <img src="assets/images/<?= htmlspecialchars($pObj->gambar); ?>" alt="<?= htmlspecialchars($pObj->nama); ?>" style="width: 35%; height: 35%;" class="product-image">
         <h3><?= htmlspecialchars($pObj->nama); ?></h3>
         <p style="color: #757575; font-size: 13px;"><?= $pObj->kategori; ?></p>
         <div class="price"><?= formatRupiah($pObj->harga); ?></div>
